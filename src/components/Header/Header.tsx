@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Col, Container, Row } from 'react-bootstrap';
 import Logo from '../../images/ri-github-fill.svg';
 import search from '../../images/search.svg';
-import React, { ReactText, useState } from 'react';
+import React from 'react';
 
 const HeaderLayout = styled.header`
   padding: 3rem 0;
