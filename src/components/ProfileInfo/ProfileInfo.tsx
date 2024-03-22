@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Col, Container, Row } from 'react-bootstrap';
 import locationIcon from '../../images/location.svg';
-import linkedin from '../../images/linkedin.svg';
+import website from '../../images/website.svg';
 import github from '../../images/ri-github-fill.svg';
 import { ProfileGithub } from '../../hooks/useGitHubApi/useGitHubApi';
 import { LoadingInfo } from '../../App';
@@ -47,6 +47,8 @@ const ProfileInfoAmountDesc = styled.span`
 const ProfileInfoIconContact = styled.img`
   width: 100%;
   max-width: 2.2rem;
+  filter: invert(24%) sepia(57%) saturate(2436%) hue-rotate(177deg)
+    brightness(93%) contrast(101%);
 `;
 
 const ProfileInfoContact = styled.span`
@@ -133,8 +135,10 @@ export function ProfileInfo({
                   </ProfileInfoContact>
                 </div>
                 <div className="d-flex align-items-center gap-3">
-                  <ProfileInfoIconContact src={linkedin} alt="linkedin" />
-                  <ProfileInfoContact>{blog}</ProfileInfoContact>
+                  <ProfileInfoIconContact src={website} alt="blog" />
+                  <ProfileInfoContact>
+                    {blog || 'Não informado'}
+                  </ProfileInfoContact>
                 </div>
               </div>
 
