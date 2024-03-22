@@ -6,7 +6,7 @@ Lista o perfil e repositórios dos usuários do GitHub, utilizando a API do GitH
 
 ## Veja esse projeto online
 
-[Visualizar RepoFinder no netlify]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://65fde94dd91cb4000848b798--repofinder164768.netlify.app/))
+[Visualizar RepoFinder no netlify](https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://65fde94dd91cb4000848b798--repofinder164768.netlify.app)
 
 
 ## Rodando localmente
